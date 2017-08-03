@@ -1,0 +1,111 @@
+fileFormatVersion: 2
+guid: 02f7cf8f0dd141a4dad10b9435e05902
+timeCreated: 1483345167
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: FruitsBridge_Recovered_Pole
+    100004: FruitsBridge_Recovered_Rope
+    100006: FruitsBridge_Recovered_Step
+    100008: FruitsBridge_Pole
+    100010: FruitsBridge_Rope
+    100012: FruitsBridge_Step
+    400000: //RootNode
+    400002: FruitsBridge_Recovered_Pole
+    400004: FruitsBridge_Recovered_Rope
+    400006: FruitsBridge_Recovered_Step
+    400008: FruitsBridge_Pole
+    400010: FruitsBridge_Rope
+    400012: FruitsBridge_Step
+    2300000: //RootNode
+    2300002: FruitsBridge_Recovered_Pole
+    2300004: FruitsBridge_Recovered_Rope
+    2300006: FruitsBridge_Recovered_Step
+    2300008: FruitsBridge_Pole
+    2300010: FruitsBridge_Rope
+    2300012: FruitsBridge_Step
+    3300000: //RootNode
+    3300002: FruitsBridge_Recovered_Pole
+    3300004: FruitsBridge_Recovered_Rope
+    3300006: FruitsBridge_Recovered_Step
+    3300008: FruitsBridge_Pole
+    3300010: FruitsBridge_Rope
+    3300012: FruitsBridge_Step
+    4300000: FruitsBridge_Recovered
+    4300002: FruitsBridge_Recovered_Pole
+    4300004: FruitsBridge_Recovered_Step
+    4300006: FruitsBridge_Recovered_Rope
+    4300008: FruitsBridge
+    4300010: FruitsBridge_Pole
+    4300012: FruitsBridge_Step
+    4300014: FruitsBridge_Rope
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

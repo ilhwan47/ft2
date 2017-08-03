@@ -1,0 +1,647 @@
+fileFormatVersion: 2
+guid: c347cbbc7ed348442b40266dd2f812fb
+timeCreated: 1480918405
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Action
+    100002: Arm.1.L
+    100004: Arm.1.R
+    100006: arm.2.L
+    100008: arm.2.R
+    100010: Body
+    100012: controller
+    100014: Foot.L
+    100016: Foot.L_end
+    100018: Foot.R
+    100020: Foot.R_end
+    100022: Hair
+    100024: Hair_end
+    100026: hand.L
+    100028: hand.L_end
+    100030: hand.R
+    100032: hand.R_end
+    100034: Head
+    100036: Hip.L
+    100038: Hip.R
+    100040: IK.Arm.1.L
+    100042: IK.Arm.1.L_end
+    100044: IK.Arm.1.R
+    100046: IK.Arm.1.R_end
+    100048: IK.Foot.L
+    100050: IK.Foot.L_end
+    100052: IK.Foot.R
+    100054: IK.Foot.R_end
+    100056: IK.Hair
+    100058: IK.Hair_end
+    100060: IK.hairlong
+    100062: IK.hairlong_end
+    100064: IK.hairshort
+    100066: IK.hairshort_end
+    100068: IK.hand.L
+    100070: IK.hand.L_end
+    100072: IK.hand.R
+    100074: IK.hand.R_end
+    100076: IK.Head
+    100078: IK.Head_end
+    100080: IK.HIP
+    100082: IK.HIP_end
+    100084: IK.knee.L
+    100086: IK.knee.L_end
+    100088: IK.knee.R
+    100090: IK.knee.R_end
+    100092: IK.Pelvis
+    100094: IK.shoulder
+    100096: IK.shoulder_end
+    100098: Lag.L
+    100100: Lag.R
+    100102: Neck
+    100104: Pelvis
+    100106: //RootNode
+    100108: Player_Body
+    100110: Player_Hair
+    100112: Shoulder.L
+    100114: Shoulder.R
+    100116: Thigh.L
+    100118: Thigh.R
+    400000: Action
+    400002: Arm.1.L
+    400004: Arm.1.R
+    400006: arm.2.L
+    400008: arm.2.R
+    400010: Body
+    400012: controller
+    400014: Foot.L
+    400016: Foot.L_end
+    400018: Foot.R
+    400020: Foot.R_end
+    400022: Hair
+    400024: Hair_end
+    400026: hand.L
+    400028: hand.L_end
+    400030: hand.R
+    400032: hand.R_end
+    400034: Head
+    400036: Hip.L
+    400038: Hip.R
+    400040: IK.Arm.1.L
+    400042: IK.Arm.1.L_end
+    400044: IK.Arm.1.R
+    400046: IK.Arm.1.R_end
+    400048: IK.Foot.L
+    400050: IK.Foot.L_end
+    400052: IK.Foot.R
+    400054: IK.Foot.R_end
+    400056: IK.Hair
+    400058: IK.Hair_end
+    400060: IK.hairlong
+    400062: IK.hairlong_end
+    400064: IK.hairshort
+    400066: IK.hairshort_end
+    400068: IK.hand.L
+    400070: IK.hand.L_end
+    400072: IK.hand.R
+    400074: IK.hand.R_end
+    400076: IK.Head
+    400078: IK.Head_end
+    400080: IK.HIP
+    400082: IK.HIP_end
+    400084: IK.knee.L
+    400086: IK.knee.L_end
+    400088: IK.knee.R
+    400090: IK.knee.R_end
+    400092: IK.Pelvis
+    400094: IK.shoulder
+    400096: IK.shoulder_end
+    400098: Lag.L
+    400100: Lag.R
+    400102: Neck
+    400104: Pelvis
+    400106: //RootNode
+    400108: Player_Body
+    400110: Player_Hair
+    400112: Shoulder.L
+    400114: Shoulder.R
+    400116: Thigh.L
+    400118: Thigh.R
+    4300000: Player_Body
+    4300002: Player_Hair
+    7400000: Action|Player_Ready
+    7400002: Action|Player_Run
+    7400004: Action|Player_Walk
+    9500000: //RootNode
+    13700000: Player_Body
+    13700002: Player_Hair
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Action|Player_Ready
+      takeName: Action|Player_Ready
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: Action/controller
+        weight: 1
+      - path: Action/controller/IK.Arm.1.L
+        weight: 1
+      - path: Action/controller/IK.Arm.1.L/IK.Arm.1.L_end
+        weight: 1
+      - path: Action/controller/IK.Arm.1.R
+        weight: 1
+      - path: Action/controller/IK.Arm.1.R/IK.Arm.1.R_end
+        weight: 1
+      - path: Action/controller/IK.Foot.L
+        weight: 1
+      - path: Action/controller/IK.Foot.L/IK.Foot.L_end
+        weight: 1
+      - path: Action/controller/IK.Foot.R
+        weight: 1
+      - path: Action/controller/IK.Foot.R/IK.Foot.R_end
+        weight: 1
+      - path: Action/controller/IK.hand.L
+        weight: 1
+      - path: Action/controller/IK.hand.L/IK.hand.L_end
+        weight: 1
+      - path: Action/controller/IK.hand.R
+        weight: 1
+      - path: Action/controller/IK.hand.R/IK.hand.R_end
+        weight: 1
+      - path: Action/controller/IK.Head
+        weight: 1
+      - path: Action/controller/IK.Head/IK.Head_end
+        weight: 1
+      - path: Action/controller/IK.HIP
+        weight: 1
+      - path: Action/controller/IK.HIP/IK.HIP_end
+        weight: 1
+      - path: Action/controller/IK.knee.L
+        weight: 1
+      - path: Action/controller/IK.knee.L/IK.knee.L_end
+        weight: 1
+      - path: Action/controller/IK.knee.R
+        weight: 1
+      - path: Action/controller/IK.knee.R/IK.knee.R_end
+        weight: 1
+      - path: Action/controller/IK.Pelvis
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Action/controller/Pelvis
+        weight: 1
+      - path: Action/controller/Pelvis/Body
+        weight: 1
+      - path: Action/controller/Pelvis/Body/IK.shoulder
+        weight: 1
+      - path: Action/controller/Pelvis/Body/IK.shoulder/IK.shoulder_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/Hair
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/Hair/Hair_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.Hair
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.Hair/IK.Hair_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairlong
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairlong/IK.hairlong_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairshort
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairshort/IK.hairshort_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L/arm.2.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L/arm.2.L/hand.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L/arm.2.L/hand.L/hand.L_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R/arm.2.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R/arm.2.R/hand.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R/arm.2.R/hand.R/hand.R_end
+        weight: 1
+      - path: Player_Body
+        weight: 1
+      - path: Player_Hair
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action|Player_Run
+      takeName: Action|Player_Run
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: Action/controller
+        weight: 1
+      - path: Action/controller/IK.Arm.1.L
+        weight: 1
+      - path: Action/controller/IK.Arm.1.L/IK.Arm.1.L_end
+        weight: 1
+      - path: Action/controller/IK.Arm.1.R
+        weight: 1
+      - path: Action/controller/IK.Arm.1.R/IK.Arm.1.R_end
+        weight: 1
+      - path: Action/controller/IK.Foot.L
+        weight: 1
+      - path: Action/controller/IK.Foot.L/IK.Foot.L_end
+        weight: 1
+      - path: Action/controller/IK.Foot.R
+        weight: 1
+      - path: Action/controller/IK.Foot.R/IK.Foot.R_end
+        weight: 1
+      - path: Action/controller/IK.hand.L
+        weight: 1
+      - path: Action/controller/IK.hand.L/IK.hand.L_end
+        weight: 1
+      - path: Action/controller/IK.hand.R
+        weight: 1
+      - path: Action/controller/IK.hand.R/IK.hand.R_end
+        weight: 1
+      - path: Action/controller/IK.Head
+        weight: 1
+      - path: Action/controller/IK.Head/IK.Head_end
+        weight: 1
+      - path: Action/controller/IK.HIP
+        weight: 1
+      - path: Action/controller/IK.HIP/IK.HIP_end
+        weight: 1
+      - path: Action/controller/IK.knee.L
+        weight: 1
+      - path: Action/controller/IK.knee.L/IK.knee.L_end
+        weight: 1
+      - path: Action/controller/IK.knee.R
+        weight: 1
+      - path: Action/controller/IK.knee.R/IK.knee.R_end
+        weight: 1
+      - path: Action/controller/IK.Pelvis
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Action/controller/Pelvis
+        weight: 1
+      - path: Action/controller/Pelvis/Body
+        weight: 1
+      - path: Action/controller/Pelvis/Body/IK.shoulder
+        weight: 1
+      - path: Action/controller/Pelvis/Body/IK.shoulder/IK.shoulder_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/Hair
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/Hair/Hair_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.Hair
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.Hair/IK.Hair_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairlong
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairlong/IK.hairlong_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairshort
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairshort/IK.hairshort_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L/arm.2.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L/arm.2.L/hand.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L/arm.2.L/hand.L/hand.L_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R/arm.2.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R/arm.2.R/hand.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R/arm.2.R/hand.R/hand.R_end
+        weight: 1
+      - path: Player_Body
+        weight: 1
+      - path: Player_Hair
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action|Player_Walk
+      takeName: Action|Player_Walk
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: Action/controller
+        weight: 1
+      - path: Action/controller/IK.Arm.1.L
+        weight: 1
+      - path: Action/controller/IK.Arm.1.L/IK.Arm.1.L_end
+        weight: 1
+      - path: Action/controller/IK.Arm.1.R
+        weight: 1
+      - path: Action/controller/IK.Arm.1.R/IK.Arm.1.R_end
+        weight: 1
+      - path: Action/controller/IK.Foot.L
+        weight: 1
+      - path: Action/controller/IK.Foot.L/IK.Foot.L_end
+        weight: 1
+      - path: Action/controller/IK.Foot.R
+        weight: 1
+      - path: Action/controller/IK.Foot.R/IK.Foot.R_end
+        weight: 1
+      - path: Action/controller/IK.hand.L
+        weight: 1
+      - path: Action/controller/IK.hand.L/IK.hand.L_end
+        weight: 1
+      - path: Action/controller/IK.hand.R
+        weight: 1
+      - path: Action/controller/IK.hand.R/IK.hand.R_end
+        weight: 1
+      - path: Action/controller/IK.Head
+        weight: 1
+      - path: Action/controller/IK.Head/IK.Head_end
+        weight: 1
+      - path: Action/controller/IK.HIP
+        weight: 1
+      - path: Action/controller/IK.HIP/IK.HIP_end
+        weight: 1
+      - path: Action/controller/IK.knee.L
+        weight: 1
+      - path: Action/controller/IK.knee.L/IK.knee.L_end
+        weight: 1
+      - path: Action/controller/IK.knee.R
+        weight: 1
+      - path: Action/controller/IK.knee.R/IK.knee.R_end
+        weight: 1
+      - path: Action/controller/IK.Pelvis
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R
+        weight: 1
+      - path: Action/controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Action/controller/Pelvis
+        weight: 1
+      - path: Action/controller/Pelvis/Body
+        weight: 1
+      - path: Action/controller/Pelvis/Body/IK.shoulder
+        weight: 1
+      - path: Action/controller/Pelvis/Body/IK.shoulder/IK.shoulder_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/Hair
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/Hair/Hair_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.Hair
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.Hair/IK.Hair_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairlong
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairlong/IK.hairlong_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairshort
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Neck/Head/IK.hairshort/IK.hairshort_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L/arm.2.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L/arm.2.L/hand.L
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.L/Arm.1.L/arm.2.L/hand.L/hand.L_end
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R/arm.2.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R/arm.2.R/hand.R
+        weight: 1
+      - path: Action/controller/Pelvis/Body/Shoulder.R/Arm.1.R/arm.2.R/hand.R/hand.R_end
+        weight: 1
+      - path: Player_Body
+        weight: 1
+      - path: Player_Hair
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

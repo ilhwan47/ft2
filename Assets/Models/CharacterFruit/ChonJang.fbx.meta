@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: 1733f4a23279feb46955999bfb0f4167
+timeCreated: 1481106544
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Action
+    100002: Arm1.L
+    100004: Arm1.R
+    100006: Arm2.L
+    100008: Arm2.R
+    100010: Body
+    100012: //RootNode
+    100014: ChonJang_Body
+    100016: ChonJang_Cane
+    100018: ChonJang_Mustache
+    100020: Controller
+    100022: Eyeline.L
+    100024: Eyeline.L_end
+    100026: Eyeline.R
+    100028: Eyeline.R_end
+    100030: Foot.L
+    100032: Foot.L_end
+    100034: Foot.R
+    100036: Foot.R_end
+    100038: Hand.L
+    100040: Hand.L_end
+    100042: Hand.R
+    100044: Head
+    100046: Hip.L
+    100048: Hip.R
+    100050: IK.Elbow.L
+    100052: IK.Elbow.L_end
+    100054: IK.Elbow.R
+    100056: IK.Elbow.R_end
+    100058: IK.Foot.L
+    100060: IK.Foot.R
+    100062: IK.Foot.Roll.L
+    100064: IK.Foot.Roll.L_end
+    100066: IK.Foot.Roll.R
+    100068: IK.Foot.Roll.R_end
+    100070: IK.Hand.L
+    100072: IK.Hand.R
+    100074: IK.HandRoll.L
+    100076: IK.HandRoll.L_end
+    100078: IK.HandRoll.R
+    100080: IK.HandRoll.R_end
+    100082: IK.Head
+    100084: IK.Head_end
+    100086: IK.HIP
+    100088: IK.HIP_end
+    100090: IK.Knee.L
+    100092: IK.Knee.L_end
+    100094: IK.Knee.R
+    100096: IK.Knee.R_end
+    100098: IK.Pelvis
+    100100: IK.Shoulder.L
+    100102: IK.Shoulder.L_end
+    100104: Lag.L
+    100106: Lag.R
+    100108: Must.L
+    100110: Must.L_end
+    100112: Must.M
+    100114: Must.M_end
+    100116: Must.R
+    100118: Must.R_end
+    100120: Neck
+    100122: Pelvis
+    100124: Shoulder.L
+    100126: Shoulder.R
+    100128: staff
+    100130: staff_end
+    100132: Stomach
+    100134: Stomach_end
+    100136: Thigh.L
+    100138: Thigh.R
+    400000: Action
+    400002: Arm1.L
+    400004: Arm1.R
+    400006: Arm2.L
+    400008: Arm2.R
+    400010: Body
+    400012: //RootNode
+    400014: ChonJang_Body
+    400016: ChonJang_Cane
+    400018: ChonJang_Mustache
+    400020: Controller
+    400022: Eyeline.L
+    400024: Eyeline.L_end
+    400026: Eyeline.R
+    400028: Eyeline.R_end
+    400030: Foot.L
+    400032: Foot.L_end
+    400034: Foot.R
+    400036: Foot.R_end
+    400038: Hand.L
+    400040: Hand.L_end
+    400042: Hand.R
+    400044: Head
+    400046: Hip.L
+    400048: Hip.R
+    400050: IK.Elbow.L
+    400052: IK.Elbow.L_end
+    400054: IK.Elbow.R
+    400056: IK.Elbow.R_end
+    400058: IK.Foot.L
+    400060: IK.Foot.R
+    400062: IK.Foot.Roll.L
+    400064: IK.Foot.Roll.L_end
+    400066: IK.Foot.Roll.R
+    400068: IK.Foot.Roll.R_end
+    400070: IK.Hand.L
+    400072: IK.Hand.R
+    400074: IK.HandRoll.L
+    400076: IK.HandRoll.L_end
+    400078: IK.HandRoll.R
+    400080: IK.HandRoll.R_end
+    400082: IK.Head
+    400084: IK.Head_end
+    400086: IK.HIP
+    400088: IK.HIP_end
+    400090: IK.Knee.L
+    400092: IK.Knee.L_end
+    400094: IK.Knee.R
+    400096: IK.Knee.R_end
+    400098: IK.Pelvis
+    400100: IK.Shoulder.L
+    400102: IK.Shoulder.L_end
+    400104: Lag.L
+    400106: Lag.R
+    400108: Must.L
+    400110: Must.L_end
+    400112: Must.M
+    400114: Must.M_end
+    400116: Must.R
+    400118: Must.R_end
+    400120: Neck
+    400122: Pelvis
+    400124: Shoulder.L
+    400126: Shoulder.R
+    400128: staff
+    400130: staff_end
+    400132: Stomach
+    400134: Stomach_end
+    400136: Thigh.L
+    400138: Thigh.R
+    4300000: ChonJang_Cane
+    4300002: ChonJang_Mustache
+    4300004: ChonJang_Body
+    7400000: ChonJang_Walk
+    7400002: Action|ChonJang_Ready
+    7400004: Action|ChonJang_Walk
+    9500000: //RootNode
+    13700000: ChonJang_Body
+    13700002: ChonJang_Cane
+    13700004: ChonJang_Mustache
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ChonJang_Walk
+      takeName: ChonJang_Walk
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: Action/Controller
+        weight: 1
+      - path: Action/Controller/IK.Foot.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Foot.Roll.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Foot.Roll.L/IK.Foot.Roll.L_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Knee.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Knee.L/IK.Knee.L_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Foot.Roll.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Foot.Roll.R/IK.Foot.Roll.R_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Knee.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Knee.R/IK.Knee.R_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.Elbow.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.Elbow.L/IK.Elbow.L_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.HandRoll.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.HandRoll.L/IK.HandRoll.L_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.Elbow.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.Elbow.R/IK.Elbow.R_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.HandRoll.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.HandRoll.R/IK.HandRoll.R_end
+        weight: 1
+      - path: Action/Controller/IK.Head
+        weight: 1
+      - path: Action/Controller/IK.Head/IK.Head_end
+        weight: 1
+      - path: Action/Controller/Pelvis
+        weight: 1
+      - path: Action/Controller/Pelvis/Body
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/IK.Shoulder.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/IK.Shoulder.L/IK.Shoulder.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.L/Eyeline.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.R/Eyeline.R_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.L/Must.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.M
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.M/Must.M_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.R/Must.R_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L/Arm2.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L/Arm2.L/Hand.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L/Arm2.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R/Hand.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R/Hand.R/staff
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R/Hand.R/staff/staff_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Stomach
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Stomach/Stomach_end
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L/Lag.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R/Lag.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/IK.HIP
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/IK.HIP/IK.HIP_end
+        weight: 1
+      - path: ChonJang_Body
+        weight: 1
+      - path: ChonJang_Cane
+        weight: 1
+      - path: ChonJang_Mustache
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action|ChonJang_Ready
+      takeName: Action|ChonJang_Ready
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: Action/Controller
+        weight: 1
+      - path: Action/Controller/IK.Foot.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Foot.Roll.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Foot.Roll.L/IK.Foot.Roll.L_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Knee.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Knee.L/IK.Knee.L_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Foot.Roll.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Foot.Roll.R/IK.Foot.Roll.R_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Knee.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Knee.R/IK.Knee.R_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.Elbow.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.Elbow.L/IK.Elbow.L_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.HandRoll.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.HandRoll.L/IK.HandRoll.L_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.Elbow.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.Elbow.R/IK.Elbow.R_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.HandRoll.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.HandRoll.R/IK.HandRoll.R_end
+        weight: 1
+      - path: Action/Controller/IK.Head
+        weight: 1
+      - path: Action/Controller/IK.Head/IK.Head_end
+        weight: 1
+      - path: Action/Controller/Pelvis
+        weight: 1
+      - path: Action/Controller/Pelvis/Body
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/IK.Shoulder.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/IK.Shoulder.L/IK.Shoulder.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.L/Eyeline.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.R/Eyeline.R_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.L/Must.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.M
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.M/Must.M_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.R/Must.R_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L/Arm2.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L/Arm2.L/Hand.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L/Arm2.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R/Hand.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R/Hand.R/staff
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R/Hand.R/staff/staff_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Stomach
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Stomach/Stomach_end
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L/Lag.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R/Lag.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/IK.HIP
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/IK.HIP/IK.HIP_end
+        weight: 1
+      - path: ChonJang_Body
+        weight: 1
+      - path: ChonJang_Cane
+        weight: 1
+      - path: ChonJang_Mustache
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action|ChonJang_Walk
+      takeName: Action|ChonJang_Walk
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: Action/Controller
+        weight: 1
+      - path: Action/Controller/IK.Foot.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Foot.Roll.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Foot.Roll.L/IK.Foot.Roll.L_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Knee.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Knee.L/IK.Knee.L_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Foot.Roll.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Foot.Roll.R/IK.Foot.Roll.R_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Knee.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Knee.R/IK.Knee.R_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.Elbow.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.Elbow.L/IK.Elbow.L_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.HandRoll.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.HandRoll.L/IK.HandRoll.L_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.Elbow.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.Elbow.R/IK.Elbow.R_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.HandRoll.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.HandRoll.R/IK.HandRoll.R_end
+        weight: 1
+      - path: Action/Controller/IK.Head
+        weight: 1
+      - path: Action/Controller/IK.Head/IK.Head_end
+        weight: 1
+      - path: Action/Controller/Pelvis
+        weight: 1
+      - path: Action/Controller/Pelvis/Body
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/IK.Shoulder.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/IK.Shoulder.L/IK.Shoulder.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.L/Eyeline.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Eyeline.R/Eyeline.R_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.L/Must.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.M
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.M/Must.M_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Neck/Head/Must.R/Must.R_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L/Arm2.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L/Arm2.L/Hand.L
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.L/Arm1.L/Arm2.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R/Hand.R
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R/Hand.R/staff
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Shoulder.R/Arm1.R/Arm2.R/Hand.R/staff/staff_end
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Stomach
+        weight: 1
+      - path: Action/Controller/Pelvis/Body/Stomach/Stomach_end
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L/Lag.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R/Lag.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/IK.HIP
+        weight: 1
+      - path: Action/Controller/Pelvis/IK.Pelvis/IK.HIP/IK.HIP_end
+        weight: 1
+      - path: ChonJang_Body
+        weight: 1
+      - path: ChonJang_Cane
+        weight: 1
+      - path: ChonJang_Mustache
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

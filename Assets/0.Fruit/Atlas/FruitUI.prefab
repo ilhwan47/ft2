@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1855170206405446}
+  m_IsPrefabParent: 1
+--- !u!1 &1855170206405446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4435563590642304}
+  - component: {fileID: 114485736271704102}
+  m_Layer: 0
+  m_Name: FruitUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4435563590642304
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855170206405446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114485736271704102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855170206405446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 172ceccabbcb9c44fb5b3aebc73c603a, type: 2}
+  mSprites:
+  - name: dollar
+    x: 368
+    y: 76
+    width: 38
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 11
+    paddingTop: 2
+    paddingBottom: 1
+  - name: fruit_back
+    x: 294
+    y: 65
+    width: 73
+    height: 63
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 10
+    borderBottom: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fruit_item_01
+    x: 853
+    y: 1259
+    width: 252
+    height: 298
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fruit_item_02
+    x: 0
+    y: 129
+    width: 620
+    height: 494
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 85
+    paddingRight: 95
+    paddingTop: 141
+    paddingBottom: 165
+  - name: fruit_item_03
+    x: 0
+    y: 624
+    width: 640
+    height: 633
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fruit_item_04
+    x: 547
+    y: 1277
+    width: 305
+    height: 280
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 107
+    paddingRight: 88
+    paddingTop: 18
+    paddingBottom: 35
+  - name: fruit_item_05
+    x: 621
+    y: 257
+    width: 399
+    height: 366
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fruit_item_06
+    x: 547
+    y: 1558
+    width: 641
+    height: 490
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 27
+    paddingRight: 18
+    paddingTop: 18
+    paddingBottom: 63
+  - name: fruit_list
+    x: 128
+    y: 61
+    width: 165
+    height: 67
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 1
+  - name: MenuButton
+    x: 641
+    y: 1103
+    width: 405
+    height: 155
+    borderLeft: 80
+    borderRight: 80
+    borderTop: 70
+    borderBottom: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MenuButtonExit
+    x: 0
+    y: 1
+    width: 127
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: text_box
+    x: 621
+    y: 83
+    width: 408
+    height: 173
+    borderLeft: 10
+    borderRight: 100
+    borderTop: 10
+    borderBottom: 40
+    paddingLeft: 1
+    paddingRight: 5
+    paddingTop: 1
+    paddingBottom: 0
+  - name: ui_char_01
+    x: 641
+    y: 667
+    width: 257
+    height: 217
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: ui_char_02
+    x: 641
+    y: 885
+    width: 280
+    height: 217
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 2
+    paddingTop: 3
+    paddingBottom: 0
+  - name: ui_char_03
+    x: 0
+    y: 1258
+    width: 546
+    height: 790
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 0
+  - name: ui_char_04
+    x: 1189
+    y: 1359
+    width: 501
+    height: 689
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 0
+  - name: white
+    x: 407
+    y: 96
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: d5146b95e8af7fa4faa745fbaecfa72c
+timeCreated: 1484557761
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Action
+    100002: //RootNode
+    100004: AdBuilding_Body
+    100006: AdBuilding_Light
+    100008: Big_Ballon
+    100010: Big_Ballon_end
+    100012: Controller
+    100014: MiniBallon
+    100016: MiniBallon_end
+    100018: Spot_Left
+    100020: Spot_Left_end
+    100022: Spot_Right
+    100024: Spot_Right_end
+    100026: AdBuilding_Balloon
+    100028: AdBuilding
+    400000: Action
+    400002: //RootNode
+    400004: AdBuilding_Body
+    400006: AdBuilding_Light
+    400008: Big_Ballon
+    400010: Big_Ballon_end
+    400012: Controller
+    400014: MiniBallon
+    400016: MiniBallon_end
+    400018: Spot_Left
+    400020: Spot_Left_end
+    400022: Spot_Right
+    400024: Spot_Right_end
+    400026: AdBuilding_Balloon
+    400028: AdBuilding
+    4300000: AdBuilding_Body
+    4300002: AdBuilding_Light
+    4300004: AdBuilding_Balloon
+    4300006: AdBuilding
+    7400000: Action|AdBuilding_Ready
+    9500000: //RootNode
+    13700000: AdBuilding_Body
+    13700002: AdBuilding_Light
+    13700004: AdBuilding_Balloon
+    13700006: AdBuilding
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Action|AdBuilding_Ready
+      takeName: Action|AdBuilding_Ready
+      firstFrame: 0
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: Action/Controller
+        weight: 1
+      - path: Action/Controller/Big_Ballon
+        weight: 1
+      - path: Action/Controller/Big_Ballon/Big_Ballon_end
+        weight: 1
+      - path: Action/Controller/MiniBallon
+        weight: 1
+      - path: Action/Controller/MiniBallon/MiniBallon_end
+        weight: 1
+      - path: Action/Controller/Spot_Left
+        weight: 1
+      - path: Action/Controller/Spot_Left/Spot_Left_end
+        weight: 1
+      - path: Action/Controller/Spot_Right
+        weight: 1
+      - path: Action/Controller/Spot_Right/Spot_Right_end
+        weight: 1
+      - path: AdBuilding_Body
+        weight: 1
+      - path: AdBuilding_Light
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

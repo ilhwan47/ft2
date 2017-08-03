@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 986f4ec44275b6e49ae0242a16dde834
+timeCreated: 1483355167
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1
+    100002: 1_end
+    100004: 2
+    100006: 2_end
+    100008: 3
+    100010: 3_end
+    100012: 4
+    100014: 4_end
+    100016: 5
+    100018: 5_end
+    100020: 6
+    100022: 6_end
+    100024: 7
+    100026: 7_end
+    100028: Action
+    100030: //RootNode
+    100032: WorldTree_Leaf.000
+    100034: WorldTree_Leaf.001
+    100036: WorldTree_Leaf.002
+    100038: WorldTree_Leaf.003
+    100040: WorldTree_Leaf.004
+    100042: WorldTree_Leaf.005
+    100044: WorldTree_Leaf.006
+    100046: WorldTree_Leaf.007
+    100048: WorldTree_Leaf.008
+    100050: WorldTree_Leaf.009
+    100052: WorldTree_Leaf.010
+    100054: WorldTree_Leaf.011
+    100056: WorldTree_Leaf.012
+    100058: WorldTree_Leaf.013
+    100060: WorldTree_Leaf.014
+    100062: WorldTree_Leaf.015
+    100064: WorldTree_Leaf.016
+    100066: WorldTree_Leaf.017
+    100068: WorldTree_Light
+    100070: WorldTree_Wood
+    100072: WorldTree_Particle
+    100074: Tree
+    100076: Tree_end
+    100078: WorldTree
+    400000: 1
+    400002: 1_end
+    400004: 2
+    400006: 2_end
+    400008: 3
+    400010: 3_end
+    400012: 4
+    400014: 4_end
+    400016: 5
+    400018: 5_end
+    400020: 6
+    400022: 6_end
+    400024: 7
+    400026: 7_end
+    400028: Action
+    400030: //RootNode
+    400032: WorldTree_Leaf.000
+    400034: WorldTree_Leaf.001
+    400036: WorldTree_Leaf.002
+    400038: WorldTree_Leaf.003
+    400040: WorldTree_Leaf.004
+    400042: WorldTree_Leaf.005
+    400044: WorldTree_Leaf.006
+    400046: WorldTree_Leaf.007
+    400048: WorldTree_Leaf.008
+    400050: WorldTree_Leaf.009
+    400052: WorldTree_Leaf.010
+    400054: WorldTree_Leaf.011
+    400056: WorldTree_Leaf.012
+    400058: WorldTree_Leaf.013
+    400060: WorldTree_Leaf.014
+    400062: WorldTree_Leaf.015
+    400064: WorldTree_Leaf.016
+    400066: WorldTree_Leaf.017
+    400068: WorldTree_Light
+    400070: WorldTree_Wood
+    400072: WorldTree_Particle
+    400074: Tree
+    400076: Tree_end
+    400078: WorldTree
+    2300000: WorldTree_Leaf.000
+    2300002: WorldTree_Leaf.001
+    2300004: WorldTree_Leaf.002
+    2300006: WorldTree_Leaf.003
+    2300008: WorldTree_Leaf.004
+    2300010: WorldTree_Leaf.005
+    2300012: WorldTree_Leaf.006
+    2300014: WorldTree_Leaf.007
+    2300016: WorldTree_Leaf.008
+    2300018: WorldTree_Leaf.009
+    2300020: WorldTree_Leaf.010
+    2300022: WorldTree_Leaf.011
+    2300024: WorldTree_Leaf.012
+    2300026: WorldTree_Leaf.013
+    2300028: WorldTree_Leaf.014
+    2300030: WorldTree_Leaf.015
+    2300032: WorldTree_Leaf.016
+    2300034: WorldTree_Leaf.017
+    2300036: WorldTree_Wood
+    2300038: WorldTree_Particle
+    3300000: WorldTree_Leaf.000
+    3300002: WorldTree_Leaf.001
+    3300004: WorldTree_Leaf.002
+    3300006: WorldTree_Leaf.003
+    3300008: WorldTree_Leaf.004
+    3300010: WorldTree_Leaf.005
+    3300012: WorldTree_Leaf.006
+    3300014: WorldTree_Leaf.007
+    3300016: WorldTree_Leaf.008
+    3300018: WorldTree_Leaf.009
+    3300020: WorldTree_Leaf.010
+    3300022: WorldTree_Leaf.011
+    3300024: WorldTree_Leaf.012
+    3300026: WorldTree_Leaf.013
+    3300028: WorldTree_Leaf.014
+    3300030: WorldTree_Leaf.015
+    3300032: WorldTree_Leaf.016
+    3300034: WorldTree_Leaf.017
+    3300036: WorldTree_Wood
+    3300038: WorldTree_Particle
+    4300000: WorldTree_Light
+    4300002: WorldTree_Leaf.000
+    4300004: WorldTree_Wood
+    4300006: WorldTree_Leaf.017
+    4300008: WorldTree_Leaf.016
+    4300010: WorldTree_Leaf.015
+    4300012: WorldTree_Leaf.014
+    4300014: WorldTree_Leaf.013
+    4300016: WorldTree_Leaf.012
+    4300018: WorldTree_Leaf.011
+    4300020: WorldTree_Leaf.010
+    4300022: WorldTree_Leaf.009
+    4300024: WorldTree_Leaf.008
+    4300026: WorldTree_Leaf.007
+    4300028: WorldTree_Leaf.006
+    4300030: WorldTree_Leaf.005
+    4300032: WorldTree_Leaf.004
+    4300034: WorldTree_Leaf.003
+    4300036: WorldTree_Leaf.002
+    4300038: WorldTree_Leaf.001
+    4300040: WorldTree_Particle
+    4300042: WorldTree
+    7400000: Action|WorldTree_Ready
+    7400002: WorldTree_Ready
+    9500000: //RootNode
+    13700000: WorldTree_Light
+    13700002: WorldTree
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

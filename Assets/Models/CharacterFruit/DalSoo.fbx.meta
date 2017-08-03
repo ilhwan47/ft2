@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: 2b1c17b6274a0f14c93773f52c9c1a65
+timeCreated: 1480918404
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Action
+    100002: Arm1.L
+    100004: Arm1.R
+    100006: Arm2.L
+    100008: Arm2.R
+    100010: body
+    100012: Controller
+    100014: //RootNode
+    100016: DalSoo_Body
+    100018: Dalsoo_Hair
+    100020: Foot.L
+    100022: Foot.L_end
+    100024: Foot.R
+    100026: Foot.R_end
+    100028: hair
+    100030: hair_end
+    100032: Hand.L
+    100034: Hand.L_end
+    100036: Hand.R
+    100038: Hand.R_end
+    100040: head
+    100042: Hip.L
+    100044: Hip.R
+    100046: IK.Arm.L
+    100048: IK.Arm.L_end
+    100050: IK.Arm.R
+    100052: IK.Arm.R_end
+    100054: IK.Foot.L
+    100056: IK.Foot.L_end
+    100058: IK.Foot.R
+    100060: IK.Foot.R_end
+    100062: IK.Hand.L
+    100064: IK.Hand.L_end
+    100066: IK.Hand.R
+    100068: IK.Hand.R_end
+    100070: IK.Head
+    100072: IK.Head_end
+    100074: IK.Hip
+    100076: IK.Hip_end
+    100078: IK.Knee.L
+    100080: IK.Knee.L_end
+    100082: IK.Knee.R
+    100084: IK.Knee.R_end
+    100086: IK.Pelvis
+    100088: IK.Shoulder
+    100090: IK.Shoulder_end
+    100092: Lag.L
+    100094: Lag.R
+    100096: neck
+    100098: pelvis
+    100100: Shoulder.L
+    100102: Shoulder.R
+    100104: Thigh.L
+    100106: Thigh.R
+    400000: Action
+    400002: Arm1.L
+    400004: Arm1.R
+    400006: Arm2.L
+    400008: Arm2.R
+    400010: body
+    400012: Controller
+    400014: //RootNode
+    400016: DalSoo_Body
+    400018: Dalsoo_Hair
+    400020: Foot.L
+    400022: Foot.L_end
+    400024: Foot.R
+    400026: Foot.R_end
+    400028: hair
+    400030: hair_end
+    400032: Hand.L
+    400034: Hand.L_end
+    400036: Hand.R
+    400038: Hand.R_end
+    400040: head
+    400042: Hip.L
+    400044: Hip.R
+    400046: IK.Arm.L
+    400048: IK.Arm.L_end
+    400050: IK.Arm.R
+    400052: IK.Arm.R_end
+    400054: IK.Foot.L
+    400056: IK.Foot.L_end
+    400058: IK.Foot.R
+    400060: IK.Foot.R_end
+    400062: IK.Hand.L
+    400064: IK.Hand.L_end
+    400066: IK.Hand.R
+    400068: IK.Hand.R_end
+    400070: IK.Head
+    400072: IK.Head_end
+    400074: IK.Hip
+    400076: IK.Hip_end
+    400078: IK.Knee.L
+    400080: IK.Knee.L_end
+    400082: IK.Knee.R
+    400084: IK.Knee.R_end
+    400086: IK.Pelvis
+    400088: IK.Shoulder
+    400090: IK.Shoulder_end
+    400092: Lag.L
+    400094: Lag.R
+    400096: neck
+    400098: pelvis
+    400100: Shoulder.L
+    400102: Shoulder.R
+    400104: Thigh.L
+    400106: Thigh.R
+    4300000: DalSoo_Body
+    4300002: Dalsoo_Hair
+    7400000: Action|DalSoo_Ready
+    7400002: Action|DalSoo_Run
+    7400004: Action|DalSoo_Walk
+    9500000: //RootNode
+    13700000: DalSoo_Body
+    13700002: Dalsoo_Hair
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Action|DalSoo_Ready
+      takeName: Action|DalSoo_Ready
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: Action/Controller
+        weight: 1
+      - path: Action/Controller/IK.Arm.L
+        weight: 1
+      - path: Action/Controller/IK.Arm.L/IK.Arm.L_end
+        weight: 1
+      - path: Action/Controller/IK.Arm.R
+        weight: 1
+      - path: Action/Controller/IK.Arm.R/IK.Arm.R_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Foot.L_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Foot.R_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.Hand.L_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.Hand.R_end
+        weight: 1
+      - path: Action/Controller/IK.Head
+        weight: 1
+      - path: Action/Controller/IK.Head/IK.Head_end
+        weight: 1
+      - path: Action/Controller/IK.Knee.L
+        weight: 1
+      - path: Action/Controller/IK.Knee.L/IK.Knee.L_end
+        weight: 1
+      - path: Action/Controller/IK.Knee.R
+        weight: 1
+      - path: Action/Controller/IK.Knee.R/IK.Knee.R_end
+        weight: 1
+      - path: Action/Controller/IK.Pelvis
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Action/Controller/pelvis
+        weight: 1
+      - path: Action/Controller/pelvis/body
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Hip
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Hip/IK.Hip_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Shoulder
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Shoulder/IK.Shoulder_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck/head
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck/head/hair
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck/head/hair/hair_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L/Arm2.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L/Arm2.L/Hand.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L/Arm2.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R/Arm2.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R/Arm2.R/Hand.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R/Arm2.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: DalSoo_Body
+        weight: 1
+      - path: Dalsoo_Hair
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action|DalSoo_Run
+      takeName: Action|DalSoo_Run
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: Action/Controller
+        weight: 1
+      - path: Action/Controller/IK.Arm.L
+        weight: 1
+      - path: Action/Controller/IK.Arm.L/IK.Arm.L_end
+        weight: 1
+      - path: Action/Controller/IK.Arm.R
+        weight: 1
+      - path: Action/Controller/IK.Arm.R/IK.Arm.R_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Foot.L_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Foot.R_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.Hand.L_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.Hand.R_end
+        weight: 1
+      - path: Action/Controller/IK.Head
+        weight: 1
+      - path: Action/Controller/IK.Head/IK.Head_end
+        weight: 1
+      - path: Action/Controller/IK.Knee.L
+        weight: 1
+      - path: Action/Controller/IK.Knee.L/IK.Knee.L_end
+        weight: 1
+      - path: Action/Controller/IK.Knee.R
+        weight: 1
+      - path: Action/Controller/IK.Knee.R/IK.Knee.R_end
+        weight: 1
+      - path: Action/Controller/IK.Pelvis
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Action/Controller/pelvis
+        weight: 1
+      - path: Action/Controller/pelvis/body
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Hip
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Hip/IK.Hip_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Shoulder
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Shoulder/IK.Shoulder_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck/head
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck/head/hair
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck/head/hair/hair_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L/Arm2.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L/Arm2.L/Hand.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L/Arm2.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R/Arm2.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R/Arm2.R/Hand.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R/Arm2.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: DalSoo_Body
+        weight: 1
+      - path: Dalsoo_Hair
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action|DalSoo_Walk
+      takeName: Action|DalSoo_Walk
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: Action/Controller
+        weight: 1
+      - path: Action/Controller/IK.Arm.L
+        weight: 1
+      - path: Action/Controller/IK.Arm.L/IK.Arm.L_end
+        weight: 1
+      - path: Action/Controller/IK.Arm.R
+        weight: 1
+      - path: Action/Controller/IK.Arm.R/IK.Arm.R_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.L
+        weight: 1
+      - path: Action/Controller/IK.Foot.L/IK.Foot.L_end
+        weight: 1
+      - path: Action/Controller/IK.Foot.R
+        weight: 1
+      - path: Action/Controller/IK.Foot.R/IK.Foot.R_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.L
+        weight: 1
+      - path: Action/Controller/IK.Hand.L/IK.Hand.L_end
+        weight: 1
+      - path: Action/Controller/IK.Hand.R
+        weight: 1
+      - path: Action/Controller/IK.Hand.R/IK.Hand.R_end
+        weight: 1
+      - path: Action/Controller/IK.Head
+        weight: 1
+      - path: Action/Controller/IK.Head/IK.Head_end
+        weight: 1
+      - path: Action/Controller/IK.Knee.L
+        weight: 1
+      - path: Action/Controller/IK.Knee.L/IK.Knee.L_end
+        weight: 1
+      - path: Action/Controller/IK.Knee.R
+        weight: 1
+      - path: Action/Controller/IK.Knee.R/IK.Knee.R_end
+        weight: 1
+      - path: Action/Controller/IK.Pelvis
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.L/Thigh.L/Lag.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R
+        weight: 1
+      - path: Action/Controller/IK.Pelvis/Hip.R/Thigh.R/Lag.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Action/Controller/pelvis
+        weight: 1
+      - path: Action/Controller/pelvis/body
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Hip
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Hip/IK.Hip_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Shoulder
+        weight: 1
+      - path: Action/Controller/pelvis/body/IK.Shoulder/IK.Shoulder_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck/head
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck/head/hair
+        weight: 1
+      - path: Action/Controller/pelvis/body/neck/head/hair/hair_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L/Arm2.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L/Arm2.L/Hand.L
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.L/Arm1.L/Arm2.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R/Arm2.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R/Arm2.R/Hand.R
+        weight: 1
+      - path: Action/Controller/pelvis/body/Shoulder.R/Arm1.R/Arm2.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: DalSoo_Body
+        weight: 1
+      - path: Dalsoo_Hair
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
