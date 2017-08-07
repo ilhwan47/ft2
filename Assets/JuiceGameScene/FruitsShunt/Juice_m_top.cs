@@ -28,7 +28,9 @@ public class Juice_m_top : MonoBehaviour {
     float juice_b_firstMinusSecond;
     float juiceAmountSix;
     float juice_b_insert_positionY;
+    float juice_b_insert_positionY_local;
     float juice_b_original_positionY;
+    float juice_b_original_positionY_local;
     float containerUpSpeed = 100f;
 
     int insertedJuiceCount;
@@ -43,7 +45,9 @@ public class Juice_m_top : MonoBehaviour {
     void Start()
     {
         juice_b_insert_positionY = juice_b_insert_point.transform.position.y;
+        juice_b_insert_positionY_local = juice_b_insert_point.transform.localPosition.y;
         juice_b_original_positionY = juice_b[0].transform.position.y;
+        juice_b_original_positionY_local = juice_b[0].transform.localPosition.y;
         juice_b_image = new Image[3, 2];
         containerInsertCheck = JuiceGameInfoManager.Instance.insertedJuiceCheck;
 
@@ -217,7 +221,8 @@ public class Juice_m_top : MonoBehaviour {
 
         if (containerInsertCheck[_juiceType])
         {
-            juice_b[_juiceType].transform.position = new Vector3(juice_b[_juiceType].transform.position.x, juice_b_insert_positionY);
+            //juice_b[_juiceType].transform.position = new Vector3(juice_b[_juiceType].transform.position.x, juice_b_insert_positionY);
+            juice_b[_juiceType].transform.localPosition = new Vector3(juice_b[_juiceType].transform.localPosition.x, juice_b_insert_positionY_local);
         }
 
         for (int i = 0; i < 3; i++)
@@ -246,7 +251,8 @@ public class Juice_m_top : MonoBehaviour {
         containerInsertCheck[_juiceType] = containerInsertCheck[_juiceType] ? false : true;
         if (containerInsertCheck[_juiceType])
         {
-            juice_b[_juiceType].transform.position = new Vector3(juice_b[_juiceType].transform.position.x, juice_b_insert_positionY);
+            //juice_b[_juiceType].transform.position = new Vector3(juice_b[_juiceType].transform.position.x, juice_b_insert_positionY);
+            juice_b[_juiceType].transform.localPosition = new Vector3(juice_b[_juiceType].transform.localPosition.x, juice_b_insert_positionY_local);
         }
         //float juice_b_positionY = containerInsertCheck[_juiceType] ? juice_b_insert_positionY : juice_b_original_positionY;
         //juice_b[_juiceType].transform.position = new Vector3(juice_b[_juiceType].transform.position.x, juice_b_positionY);
@@ -380,7 +386,12 @@ public class Juice_m_top : MonoBehaviour {
 
         for(int i = 0; i < 3; i++)
         {
-            if(!containerInsertCheck[i] && juice_b_original_positionY > juice_b[i].transform.position.y)
+            //if(!containerInsertCheck[i] && juice_b_original_positionY > juice_b[i].transform.position.y)
+            //{
+            //    juice_b[i].transform.Translate(0, Time.deltaTime * Screen.width * containerUpSpeed / 720f, 0);
+            //}
+
+            if (!containerInsertCheck[i] && juice_b_original_positionY_local > juice_b[i].transform.localPosition.y)
             {
                 juice_b[i].transform.Translate(0, Time.deltaTime * Screen.width * containerUpSpeed / 720f, 0);
             }
