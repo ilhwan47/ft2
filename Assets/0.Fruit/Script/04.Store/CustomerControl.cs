@@ -9,7 +9,8 @@ public class CustomerControl : MonoBehaviour
     public Animator _animator;
     public NavMeshAgent _navigation;
     public Image _imageOrder;
-    public Image _imageResult;
+    public Image _imageResult_Cool;
+    public Image _imageResult_Bad;
 
     public Text _textWaitTime;
 
@@ -25,7 +26,8 @@ public class CustomerControl : MonoBehaviour
     void Start()
     {
         _imageOrder.gameObject.SetActive(false);
-        _imageResult.gameObject.SetActive(false);
+        _imageResult_Cool.gameObject.SetActive(false);
+        _imageResult_Bad.gameObject.SetActive(false);
     }
 
     void Update()
@@ -63,7 +65,6 @@ public class CustomerControl : MonoBehaviour
 
                         case CustomerManager.E_CUSTOMER_STATE.RESULT_GOOD:
                         case CustomerManager.E_CUSTOMER_STATE.RESULT_BAD:
-                        case CustomerManager.E_CUSTOMER_STATE.RESULT_SAD:
                             {
                                 _eState = CustomerManager.E_CUSTOMER_STATE.DESTORY;
                             }
@@ -120,10 +121,10 @@ public class CustomerControl : MonoBehaviour
             case CustomerManager.E_CUSTOMER_STATE.RESULT_GOOD:
                 {
                     _imageOrder.gameObject.SetActive(false);
-                    _imageResult.gameObject.SetActive(true);
-                    _imageResult.sprite = CustomerManager._this.GetSprite(0);
-                    _imageResult.transform.localScale = Vector3.zero;
-                    iTween.ScaleTo(_imageResult.gameObject, iTween.Hash("x", 1f, "y", 1f, "z", 1f, "easeType", iTween.EaseType.easeOutBack, "time", 1f));
+                    _imageResult_Cool.gameObject.SetActive(true);
+                    _imageResult_Bad.gameObject.SetActive(false);
+                    _imageResult_Cool.transform.localScale = Vector3.zero;
+                    iTween.ScaleTo(_imageResult_Cool.gameObject, iTween.Hash("x", 1f, "y", 1f, "z", 1f, "easeType", iTween.EaseType.easeOutBack, "time", 1f));
                     Invoke("ResultError", 10f);
                 }
                 break;
@@ -131,21 +132,10 @@ public class CustomerControl : MonoBehaviour
             case CustomerManager.E_CUSTOMER_STATE.RESULT_BAD:
                 {
                     _imageOrder.gameObject.SetActive(false);
-                    _imageResult.gameObject.SetActive(true);
-                    _imageResult.sprite = CustomerManager._this.GetSprite(2);
-                    _imageResult.transform.localScale = Vector3.zero;
-                    iTween.ScaleTo(_imageResult.gameObject, iTween.Hash("x", 1f, "y", 1f, "z", 1f, "easeType", iTween.EaseType.easeOutBack, "time", 1f));
-                    Invoke("ResultError", 10f);
-                }
-                break;
-
-            case CustomerManager.E_CUSTOMER_STATE.RESULT_SAD:
-                {
-                    _imageOrder.gameObject.SetActive(false);
-                    _imageResult.gameObject.SetActive(true);
-                    _imageResult.sprite = CustomerManager._this.GetSprite(1);
-                    _imageResult.transform.localScale = Vector3.zero;
-                    iTween.ScaleTo(_imageResult.gameObject, iTween.Hash("x", 1f, "y", 1f, "z", 1f, "easeType", iTween.EaseType.easeOutBack, "time", 1f));
+                    _imageResult_Cool.gameObject.SetActive(false);
+                    _imageResult_Bad.gameObject.SetActive(true);
+                    _imageResult_Bad.transform.localScale = Vector3.zero;
+                    iTween.ScaleTo(_imageResult_Bad.gameObject, iTween.Hash("x", 1f, "y", 1f, "z", 1f, "easeType", iTween.EaseType.easeOutBack, "time", 1f));
                     Invoke("ResultError", 10f);
                 }
                 break;

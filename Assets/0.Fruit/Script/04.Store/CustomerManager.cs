@@ -50,7 +50,7 @@ public class CustomerManager : MonoBehaviour
 
     List<CustomerControl> _listCreateCustomer;
 
-    public enum E_CUSTOMER_STATE { CREATE, MOVE, WAIT, RESULT_GOOD, RESULT_BAD, RESULT_SAD, DESTORY, }
+    public enum E_CUSTOMER_STATE { CREATE, MOVE, WAIT, RESULT_GOOD, RESULT_BAD, DESTORY, }
     public enum E_CUSTOMER_TYPE { CHONJANG = 0, DALSOO, MYUNGJANG, }
     public enum E_CUSTOMER_ORDER { RED = 0, YELLOW, BLUE, ORANGE, VIOLET, GREEN, RAINBOW, WAIT_ORDER, }
 
@@ -140,7 +140,7 @@ public class CustomerManager : MonoBehaviour
 
                 if (eOrder == E_CUSTOMER_ORDER.WAIT_ORDER)
                 {
-                    _listCreateCustomer[0].SetAction(_vecTargetPosition + (Vector3.left * 15f), E_CUSTOMER_STATE.RESULT_SAD);
+                    _listCreateCustomer[0].SetAction(_vecTargetPosition + (Vector3.left * 15f), E_CUSTOMER_STATE.RESULT_BAD);
                 }
                 else
                 {
