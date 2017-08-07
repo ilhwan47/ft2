@@ -108,9 +108,9 @@ namespace UnityStandardAssets.ImageEffects
             // screen blend is not supported when HDR is enabled (will cap values)
 
             doHdr = false;
-            if (hdr == HDRBloomMode.Auto)
-                doHdr = source.format == RenderTextureFormat.ARGBHalf && GetComponent<Camera>().hdr;
-            else
+            //if (hdr == HDRBloomMode.Auto)
+            //    doHdr = source.format == RenderTextureFormat.ARGBHalf && GetComponent<Camera>().hdr;
+            //else
             {
                 doHdr = hdr == HDRBloomMode.On;
             }

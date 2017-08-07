@@ -56,6 +56,11 @@ public class FruitsSlot : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        Invoke("Init", 0.5f);
+    }
+
+    void Init()
+    { 
         BlockInfoCreate();
         int preRandomColor = 0;
         slotFruitsList = new LinkedList<GameObject>();
@@ -218,6 +223,10 @@ public class FruitsSlot : MonoBehaviour
 
     public void FruitsAddFirst()
     {
+        if (null == slotFruitsList)
+            return;
+
+
         if (3 < slotFruitsList.Count || 0 == slotFruitsList.Count)
         {
             return;

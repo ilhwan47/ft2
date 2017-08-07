@@ -181,16 +181,6 @@ public class JuiceCustomerManager : MonoBehaviour {
         {
             linePositionX[i] = juiceStorePoint.transform.position.x - lineDistance * i;
         }
-
-        linePositionX[0] = 500f;
-        linePositionX[1] = 450f;
-        linePositionX[2] = 400f;
-        linePositionX[3] = 350f;
-        linePositionX[4] = 300f;
-        linePositionX[5] = 250f;
-        linePositionX[6] = 200f;
-        linePositionX[7] = 150f;
-        linePositionX[8] = 100f;
     }
 
     // Update is called once per frame
