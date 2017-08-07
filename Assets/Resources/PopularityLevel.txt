@@ -1,0 +1,10 @@
+{
+"PopularityLevel":[{"popularity":30,"customerConstant":200,"customerCoefficient":1.75,"waitTimeConstant":1000,"waitTimeCoefficient":13.5,"wafflePatternNo":1},
+{"popularity":90,"customerConstant":167,"customerCoefficient":0.65,"waitTimeConstant":672,"waitTimeCoefficient":2.5,"wafflePatternNo":2},
+{"popularity":190,"customerConstant":132,"customerCoefficient":0.27,"waitTimeConstant":537,"waitTimeCoefficient":1,"wafflePatternNo":3},
+{"popularity":390,"customerConstant":101,"customerCoefficient":0.11,"waitTimeConstant":423,"waitTimeCoefficient":0.4,"wafflePatternNo":4},
+{"popularity":750,"customerConstant":72,"customerCoefficient":0.038,"waitTimeConstant":317,"waitTimeCoefficient":0.13,"wafflePatternNo":5},
+{"popularity":1400,"customerConstant":55,"customerCoefficient":0.016,"waitTimeConstant":257,"waitTimeCoefficient":0.05,"wafflePatternNo":6},
+{"popularity":2700,"customerConstant":40,"customerCoefficient":0.0053,"waitTimeConstant":215,"waitTimeCoefficient":0.02,"wafflePatternNo":7},
+{"popularity":5200,"customerConstant":31,"customerCoefficient":0.0022,"waitTimeConstant":188,"waitTimeCoefficient":0.01,"wafflePatternNo":8},
+{"popularity":10000,"customerConstant":22,"customerCoefficient":0.0005,"waitTimeConstant":150,"waitTimeCoefficient":0.0027,"wafflePatternNo":9}]}

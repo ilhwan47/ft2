@@ -10,7 +10,13 @@ public class CustomerControl : MonoBehaviour
     public NavMeshAgent _navigation;
     public Image _imageOrder;
     public Image _imageResult;
-    
+
+    public Text _textWaitTime;
+
+    public Sprite _sprOrderRed;
+    public Sprite _sprOrderYellow;
+    public Sprite _sprOrderBlue;
+
     Vector3 _vecMoveTarget;
     CustomerManager.E_CUSTOMER_STATE _eState;
     CustomerManager.E_CUSTOMER_TYPE _eCustomerType;
@@ -43,15 +49,15 @@ public class CustomerControl : MonoBehaviour
                         case CustomerManager.E_CUSTOMER_STATE.CREATE:
                             {
                                 _eState = CustomerManager.E_CUSTOMER_STATE.WAIT;
-                                Invoke("WaitOrder", 5f);
+                                //Invoke("WaitOrder", 5f);
                             }
                             break;
 
                         case CustomerManager.E_CUSTOMER_STATE.MOVE:
                             {
                                 _eState = CustomerManager.E_CUSTOMER_STATE.WAIT;
-                                CancelInvoke("WaitOrder");
-                                Invoke("WaitOrder", 5f);
+                                //CancelInvoke("WaitOrder");
+                                //Invoke("WaitOrder", 5f);
                             }
                             break;
 
@@ -74,9 +80,9 @@ public class CustomerControl : MonoBehaviour
 
         switch (_eCustomerOrder)
         {
-            case CustomerManager.E_CUSTOMER_ORDER.RED: _imageOrder.color = Color.red; break;
-            case CustomerManager.E_CUSTOMER_ORDER.YELLOW: _imageOrder.color = Color.yellow; break;
-            case CustomerManager.E_CUSTOMER_ORDER.BLUE: _imageOrder.color = Color.blue; break;
+            case CustomerManager.E_CUSTOMER_ORDER.RED: _imageOrder.sprite = _sprOrderRed; break;
+            case CustomerManager.E_CUSTOMER_ORDER.YELLOW: _imageOrder.sprite = _sprOrderYellow; break;
+            case CustomerManager.E_CUSTOMER_ORDER.BLUE: _imageOrder.sprite = _sprOrderBlue; break;
         }
 
         _imageOrder.transform.localScale = Vector3.zero;
@@ -98,7 +104,7 @@ public class CustomerControl : MonoBehaviour
         _eCustomerType = eCustomerType;
         _eCustomerOrder = eCustomerOrder;
         SetAction(vecTarget, CustomerManager.E_CUSTOMER_STATE.CREATE);
-        Invoke("ShowOrder", 8f);
+        Invoke("ShowOrder", 5f);
     }
 
     public void SetAction(Vector3 vecTarget, CustomerManager.E_CUSTOMER_STATE eState)
@@ -159,5 +165,15 @@ public class CustomerControl : MonoBehaviour
     public CustomerManager.E_CUSTOMER_ORDER GetOrder()
     {
         return _eCustomerOrder;
+    }
+    
+    public void SetWaitTime(string strWaitTime)
+    {
+        _textWaitTime.text = strWaitTime;
+    }
+
+    public void SetAlpha(Color color)
+    {
+        _imageOrder.color = color;
     }
 }

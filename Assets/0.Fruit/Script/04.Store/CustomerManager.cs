@@ -18,7 +18,7 @@ public class CustomerManager : MonoBehaviour
 
     public void Open()
     {
-        _co = StartCoroutine(IECustomerManager());
+        //_co = StartCoroutine(IECustomerManager());
     }
 
     public void Close()
@@ -37,7 +37,7 @@ public class CustomerManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(1f);
-            ButtonCreate();
+            CreateCustomer(UnityEngine.Random.Range(0, 3));
             yield return new WaitForSeconds(1f + UnityEngine.Random.Range(0f, 1f));
         }
     }
@@ -52,7 +52,7 @@ public class CustomerManager : MonoBehaviour
 
     public enum E_CUSTOMER_STATE { CREATE, MOVE, WAIT, RESULT_GOOD, RESULT_BAD, RESULT_SAD, DESTORY, }
     public enum E_CUSTOMER_TYPE { CHONJANG = 0, DALSOO, MYUNGJANG, }
-    public enum E_CUSTOMER_ORDER { RED = 0, YELLOW, BLUE, WAIT_ORDER, }
+    public enum E_CUSTOMER_ORDER { RED = 0, YELLOW, BLUE, ORANGE, VIOLET, GREEN, RAINBOW, WAIT_ORDER, }
 
     public void SetTargetPosition(Vector3 vecTargetPosition)
     {
@@ -63,11 +63,11 @@ public class CustomerManager : MonoBehaviour
         _listCreateCustomer = new List<CustomerControl>();
     }
 
-    public void ButtonCreate()
+    public CustomerControl CreateCustomer(int iCustomerJuiceType)
     {
-        if (8 > _listCreateCustomer.Count)
+        if (10 > _listCreateCustomer.Count)
         {
-            int iCustomerOrder = UnityEngine.Random.Range(0, 3);
+            int iCustomerOrder = iCustomerJuiceType;
             int iCustomerType = UnityEngine.Random.Range(0, _listCustomer.Count);
             GameObject go = Instantiate(_listCustomer[iCustomerType]);
             
@@ -90,7 +90,13 @@ public class CustomerManager : MonoBehaviour
             }
 
             _listCreateCustomer.Add(scr);
+            return scr;
         }
+        return null;
+    }
+
+    public void ButtonCreate()
+    {
     }
 
     public void ButtonClose()
@@ -147,6 +153,46 @@ public class CustomerManager : MonoBehaviour
                         _listCreateCustomer[0].SetAction(_vecTargetPosition + (Vector3.left * 15f), E_CUSTOMER_STATE.RESULT_BAD);
                     }
                 }
+                _listCreateCustomer.Remove(_listCreateCustomer[0]);
+            }
+        }
+    }
+
+    public void SetCool()
+    {
+        if (0 < _listCreateCustomer.Count)
+        {
+            if (E_CUSTOMER_STATE.WAIT == _listCreateCustomer[0].GetState())
+            {
+                if (1 < _listCreateCustomer.Count)
+                {
+                    for (int i = 1; i < _listCreateCustomer.Count; i++)
+                    {
+                        Vector3 vec = _vecTargetPosition + (Vector3.forward * 3f);
+                        _listCreateCustomer[i].SetAction(vec + (Vector3.forward * 2f * (i - 1)) + new Vector3(UnityEngine.Random.Range(-0.2f, 0.4f), 0f, UnityEngine.Random.Range(-0.2f, 0.4f)), E_CUSTOMER_STATE.MOVE);
+                    }
+                }
+                _listCreateCustomer[0].SetAction(_vecTargetPosition + (Vector3.left * 15f), E_CUSTOMER_STATE.RESULT_GOOD);
+                _listCreateCustomer.Remove(_listCreateCustomer[0]);
+            }
+        }
+    }
+
+    public void SetBed()
+    {
+        if (0 < _listCreateCustomer.Count)
+        {
+            if (E_CUSTOMER_STATE.WAIT == _listCreateCustomer[0].GetState())
+            {
+                if (1 < _listCreateCustomer.Count)
+                {
+                    for (int i = 1; i < _listCreateCustomer.Count; i++)
+                    {
+                        Vector3 vec = _vecTargetPosition + (Vector3.forward * 3f);
+                        _listCreateCustomer[i].SetAction(vec + (Vector3.forward * 2f * (i - 1)) + new Vector3(UnityEngine.Random.Range(-0.2f, 0.4f), 0f, UnityEngine.Random.Range(-0.2f, 0.4f)), E_CUSTOMER_STATE.MOVE);
+                    }
+                }
+                _listCreateCustomer[0].SetAction(_vecTargetPosition + (Vector3.left * 15f), E_CUSTOMER_STATE.RESULT_BAD);
                 _listCreateCustomer.Remove(_listCreateCustomer[0]);
             }
         }

@@ -9,6 +9,7 @@ public partial class FruitGameManager : MonoBehaviour, INetworkReceiver
     public NetworkManager _scrNetworkManager;
 
     public GameObject _EventSystem;
+    public GameObject _goJoystick;
     public JoystickHandler _Joystick;
     public FruitPlayer _Player;
 
@@ -18,6 +19,9 @@ public partial class FruitGameManager : MonoBehaviour, INetworkReceiver
     public CustomerManager _scrCustomerManager;
 
     public UILabel _labelGold;
+
+    public GameObject _goJuiceGame;
+    public GameObject _goUserInfo;
 
     public delegate void delOpenUI(GameObject go);
     public delegate void delFunc();
@@ -29,6 +33,8 @@ public partial class FruitGameManager : MonoBehaviour, INetworkReceiver
 
     private void Start()
     {
+        _goJuiceGame.SetActive(false);
+
         _Player.SetDelegate(OpenUI);
         _scrItemShop.ButtonClose();
         _scrStoreManager.gameObject.SetActive(false);
@@ -54,6 +60,7 @@ public partial class FruitGameManager : MonoBehaviour, INetworkReceiver
         {
             _Joystick.OnPointerUp(null);
             _EventSystem.SetActive(false);
+            _goJoystick.SetActive(false);
             _scrItemShop.ButtonOpen();
         }
         else if (0 == go.name.CompareTo("ShopJuice"))
@@ -64,19 +71,25 @@ public partial class FruitGameManager : MonoBehaviour, INetworkReceiver
             go.SetActive(false);
             _Joystick.OnPointerUp(null);
             _EventSystem.SetActive(false);
+            _goJoystick.SetActive(false);
             ButtonStoreOpen();
+
+            _goJuiceGame.SetActive(true);
+            _goUserInfo.SetActive(false);
         }
     }
 
     public void CloseUI()
     {
         _EventSystem.SetActive(true);
+        _goJoystick.SetActive(true);
     }
 
     public void ButtonOpenUserInfo()
     {
         _Joystick.OnPointerUp(null);
         _EventSystem.SetActive(false);
+        _goJoystick.SetActive(false);
         _scrUserItemList.gameObject.SetActive(true);
         _scrUserItemList.Open();
     }
@@ -84,6 +97,7 @@ public partial class FruitGameManager : MonoBehaviour, INetworkReceiver
     public void ButtonCloseUserInfo()
     {
         _EventSystem.SetActive(true);
+        _goJoystick.SetActive(true);
         _scrUserItemList.Close();
         _scrUserItemList.gameObject.SetActive(false);
     }
@@ -96,7 +110,11 @@ public partial class FruitGameManager : MonoBehaviour, INetworkReceiver
 
     public void ButtonStoreClose()
     {
+        _goJuiceGame.SetActive(false);
+        _goUserInfo.SetActive(true);
+
         _EventSystem.SetActive(true);
+        _goJoystick.SetActive(true);
         _scrStoreManager.gameObject.SetActive(false);
         _scrCustomerManager.Close();
     }
